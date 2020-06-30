@@ -19,9 +19,10 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.select do |num|
     num > 4
+  end
   planeteer_calls.reject do |num|
     num > 4
-   end
+  end
 end
 
 def find_valid_calls(planeteer_calls)
